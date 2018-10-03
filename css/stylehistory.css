@@ -1,0 +1,147 @@
+body {
+    font-size: 28px;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f1f1f1;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #999;
+}
+
+.active {
+    background-color: #db3236;
+}
+
+.person-image {
+  background-image: url(images/sergey.jpg);
+  background-color: #cccccc;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.person-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.infobox {
+    border: 1px solid #a2a9b1;
+    border-spacing: 3px;
+    background-color: #f8f9fa;
+    color: #222222;
+    margin: 0.5em 0 0.5em 1em;
+    padding: 0.2em;
+    float: right;
+    clear: right;
+    font-size: 88%;
+    line-height: 1.5em;
+}
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+.structure {
+    text-align: center;
+    font-size: 16px;
+    max-width: 60%;
+    letter-spacing: inherit;
+    text-transform: none;
+    line-height: 1.65em;
+    word-break: break-word;
+    padding-left: 0.5em;
+    padding-right: 0.3em;
+}
+.header-title {
+    font-size: 28px;
+    font-family: futura-pt,sans-serif;
+    font-weight: 400;
+}
+
+.tableh {
+    vertical-align: top;
+    text-align: left;
+    font-size: 28px;
+}
+
+.fn {
+    font-size: 18px;
+    font-family: futura-pt,sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.4em;
+    color: #b4b4b4;
+}
+
+.nickname {
+    font-family: open-sans,sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: inherit;
+    text-transform: none;
+    font-size: 22px;
+    line-height: 1.3em;
+    color: #333;
+    display: block;
+    margin-left: 0;
+}
+
+.tile {
+    font-weight: 700;
+    letter-spacing: inherit;
+    font-size: 22px;
+    line-height: 1.4em;
+    text-transform: uppercase;
+}
+
+img {
+    border: 0;
+    vertical-align: middle;
+    width: 270px;
+    height: 280px;
+    padding: 8px;
+}
+
+.credits {
+    font-family: open-sans,sans-serif;
+    font-weight: 200;
+    font-size: 16px;
+    text-align: right;
+}
